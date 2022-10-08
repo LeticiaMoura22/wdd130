@@ -41,20 +41,18 @@ main section {
 }
 
 
-
+header {
+    background-color:#9D8189;
+    color: #FFCAD4;
+}
 
 body {
-    background-color: white ; 
+    background-color: #FFCAD4 ; 
     
 
 }
 
 
-
-header {
-    background-color:rgba(20,30,13, .7);
-    color: whitesmoke;
-}
 
 
 
