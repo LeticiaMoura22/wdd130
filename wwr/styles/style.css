@@ -47,11 +47,10 @@ header {
 }
 
 body {
-    background-color: #FFCAD4 ; 
+    background-color: white; 
     
 
 }
-
 
 
 
@@ -65,7 +64,7 @@ nav a:hover {
 
 
 .book, .join {
-    background-color:#FFCAD4	;
+    background-color:#D8E2DC	;
     color:#9D8189;
     text-decoration: none;
 }
@@ -117,7 +116,7 @@ footer a {
 }
 
 footer a:hover {
-    color: white;
+    color: #9D8189;
     text-decoration: underline;
 }
 
