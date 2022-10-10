@@ -9,7 +9,7 @@
 
 nav a {
     text-align: center;
-    color:#D8E2DC;
+    color:#9D8189;
     text-decoration: none;
 
 }
@@ -42,8 +42,8 @@ main section {
 
 
 header {
-    background-color:#9D8189;
-    color: #FFCAD4;
+    background-color:#FFCAD4;
+    color: #9D8189;
 }
 
 body {
@@ -58,7 +58,7 @@ body {
 nav a:hover {
     background-color:#9D8189;
     text-decoration: none;
-    color: black;
+    color: #D8E2DC;
 }
 
 
