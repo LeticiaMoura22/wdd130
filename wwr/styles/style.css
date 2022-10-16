@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Lora&family=PT+Serif:ital@1&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@300&family=Work+Sans:ital@1&display=swap');
+
 #content {
     max-width:1600px;
     margin: 0 auto;
@@ -11,6 +13,7 @@ nav a {
     text-align: center;
     color:white;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -48,11 +51,17 @@ header {
 
 body {
     background-color: white; 
-    
+    font-family: 'Domine', 'Lora', 'Roboto Slab';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 
 }
 
-
+h2 {
+    margin: 0;
+}
 
 
 nav a:hover {
@@ -67,6 +76,10 @@ nav a:hover {
     background-color:#FFCAD4	;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
 
@@ -82,6 +95,8 @@ nav a:hover {
 
 .msg{
     background-color: #FFCAD4;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
@@ -90,11 +105,17 @@ nav a:hover {
 footer{
     background-color:#9D8189;
     color: #D8E2DC;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
 .home-title {
     color: #9D8189;
+    font-family: 'Playfair Display','Work Sans','PT Serif';
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 
 h4 {
@@ -103,11 +124,14 @@ h4 {
 
 .msg h2 {
     color:#9D8189;
+    font-family: 'Playfair Display','Work Sans','PT Serif';
 }
 
 
 .msg p {
     color:  black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -124,12 +148,20 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+    
 }
 
 
 .logo {
     width:80px;
 }
+
+#logo_link  {
+
+    padding-top: 5px
+
+} 
 
 
 
@@ -141,3 +173,46 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }    
+
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #9D8189;
+
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
