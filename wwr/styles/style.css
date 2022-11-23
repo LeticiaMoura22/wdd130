@@ -118,7 +118,9 @@ nav a:hover {
 
 }
 
-
+.riivers-title{
+    position:relative; left:80px; top:2px;
+}
 
 footer{
     background-color:#9D8189;
