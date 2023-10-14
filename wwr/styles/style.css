@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Mooli&family=Playfair+Display:ital,wght@1,500&family=Raleway&family=Roboto:ital@1&family=Satisfy&display=swap');
+
+/* Roboto - title; 
+   Playfair Display - title; 
+   Ar One Sans - paragraph; 
+   Raleway - paragraph.*/
+
 #content{
     max-width:1600px;
     margin: 0 auto;
@@ -6,6 +13,9 @@
 
 nav a {
     text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    color: white ;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -22,10 +32,15 @@ main section {
 
 #background{
     height: 725px;
+    margin-bottom: 100px;
 }
 
 body{
     background-color:  white;
+    font-family:'Mooli', sans-serif,'AR One Sans', sans-serif,'Raleway', sans-serif ;
+    font-size:22px ;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -40,6 +55,12 @@ nav a:hover {
 .book, .join{
 
     background-color:  #669BBC;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color:white ;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -52,15 +73,13 @@ nav a:hover {
 
 .msg{
     background-color:#C1121F ;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 100px;
+
 }
 
-footer{
-    background-color:#780000 ;
-}
 
-nav a {
-    color: white ;
-}
 
 nav a:hover {
     color:#C1121F ;
@@ -68,15 +87,15 @@ nav a:hover {
 
 .home-title{
     color:#C1121F ;
+    font-family:'Satisfy', cursive, 'Roboto', sans-serif,'Playfair Display', serif;
+    font-size:2em ;
+    margin-top: 10px;
 }
 
 h4{
     color:#780000 ;
 }
 
-.book, .join{
-    color:white ;
-}
 
 .book:hover, .join:hover{
     color:white ;
@@ -84,14 +103,21 @@ h4{
 
 .msg h2 {
     color:white;
+   font-family:'Satisfy', cursive, 'Roboto', sans-serif,'Playfair Display', serif;
 }
 
 .msg p{
     color:black ;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     color:white ;
+    padding: 25px 50px;
+    background-color:#780000 ;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 
 footer a{
@@ -108,20 +134,13 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
 }
 
-nav a {
-    text-decoration: none;
-}
-
-.book, .join{
-    text-decoration: none;
-    
-}
 
 footer a{
     text-decoration: none;
@@ -134,4 +153,27 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
