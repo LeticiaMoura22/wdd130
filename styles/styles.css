@@ -1,12 +1,13 @@
 main {
     width: 840px;
+    max-width: 100%;
 }
 
 aside {
     width: 20rem;
-    max-width: auto;
+    max-width: 100%;
     margin: auto;
-    border: 1 px solid(000/0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #345;
@@ -22,8 +23,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: auto;
-    padding: auto;
+    border: none;
+    padding: 0;
     box-shadow: none;
 
 }
@@ -38,12 +39,12 @@ h1 {
 
 nav {
     background-color: #eee;
-    padding: auto;
+    padding: 1rem;
 }
 
 nav a {
     color: #000;
-    padding: auto;
+    padding: 0.5rem 0;
     display: block;
 }
 
