@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Adventures</title>
+    <meta name="description"
+      content="Get in touch with White Water Rafting Adventures. Contact us for reservations, questions, and inquiries about our thrilling rafting experiences.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Get in touch with our team for reservations, questions,
+                or feedback.</p>
+
+            <div class="company-info">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>123 Rafting River Road<br>Adventure City, AC 12345</p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567<br>(555) 123-4568</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890!2d-111.8910!3d40.7608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzM5LjIiTiAxMTHCsDUzJzI2LjgiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <div class="employee">
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <h3>John Smith</h3>
+                    <p class="title">Lead Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <h3>Sarah Johnson</h3>
+                    <p class="title">Safety Coordinator</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <h3>Mike Rodriguez</h3>
+                    <p class="title">Operations Manager</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="submit" method="post" class="contact-form">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset class="purpose-fieldset">
+                        <legend>Purpose of Message:</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <label><input type="checkbox" name="newsletter"> Please subscribe me to the
+                        monthly newsletter</label>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 White Water Rafting Adventures. All rights reserved.</p>
+        <nav class="footer-nav">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
