@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1a472a;
-    --accent1-color: #4a90e2;
+    --accent1-color: #2563eb;
     --accent2-color: #50c878;
     --body-font: 'Arial', sans-serif;
     --heading-font: 'Georgia', serif;
@@ -116,4 +116,24 @@ footer {
     width: 125px;
     margin: 0 0 16px 16px;
     border-radius: 4px;
+}
+
+/* Figure and Figcaption Styling */
+figure {
+    display: inline-block;
+    width: 45%;
+    margin: 16px 2%;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-style: italic;
+    color: var(--primary-color);
+    padding: 8px 0;
 }
