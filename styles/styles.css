@@ -35,24 +35,24 @@ aside {
     border: 1px solid rgb(0 0 0 /0.2);
     padding: 1rem;
     background-color: #eee;
-    color: #eee;
+    color: #eeb;
     text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
-    box-shadow: 0;
-    border: 0;
-    padding: 0;
-    border: 0;
-    margin: 0;
+    box-shadow: 0px;
+    border: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 main img {
-    width: 150;
+    width: 150px;
     height: auto;
-    border: auto;
+    border: #000;
     padding: 10px;
     box-shadow: auto;
 }
