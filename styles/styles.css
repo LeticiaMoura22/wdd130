@@ -42,11 +42,19 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    box-shadow: 0;
+    border: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
 main img {
-    width: auto;
+    width: 150;
     height: auto;
+    border: auto;
+    padding: 10px;
+    box-shadow: auto;
 }
 
 footer {
