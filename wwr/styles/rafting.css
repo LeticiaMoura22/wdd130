@@ -124,11 +124,6 @@ section {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Map iframe styling */
-.map iframe {
-  border: 0;
-}
-
 /* History section: text / image / text grid layout */
 .history h2 {
   text-align: center;
