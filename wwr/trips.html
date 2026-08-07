@@ -8,10 +8,6 @@
       content="Explore Wild River Adventures' guided white water rafting trips, from a half-day splash to an overnight basecamp expedition, plus full trip pricing and details.">
     <meta name="author" content="Leticia Moura">
     <title>Trips - Wild River Adventures</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mulish:wght@400;600;700&display=swap"
-      rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -27,32 +23,28 @@
     </header>
 
     <main>
-        <section class="page-hero trips-hero">
-            <img src="images/trips-hero.jpg" alt="A raft crew paddling hard through a rapid at sunset">
-            <div class="page-hero-content">
-                <h1>Choose Your Adventure</h1>
+        <div class="hero">
+            <img src="images/trips-hero.jpg"
+              alt="A raft crew paddling hard through a rapid at sunset">
+            <h1>Choose Your Adventure</h1>
+            <div class="hero-cta">
                 <p>Three signature trips, one unforgettable river.</p>
             </div>
-        </section>
+        </div>
 
-        <div class="rapids-divider" aria-hidden="true"></div>
-
-        <section class="trip-cta">
-            <div class="cta-box">
-                <h2>Not Sure Which Trip Is Right for You?</h2>
-                <p>Our team can help you pick the perfect adventure for your group's experience
-                    level, schedule, and budget.</p>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-            </div>
+        <section class="trips-cta">
+            <h2>Not Sure Which Trip Is Right for You?</h2>
+            <p>Our team can help you pick the perfect adventure for your group's experience
+                level, schedule, and budget.</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
         </section>
 
         <section class="trip-details">
             <h2>Our Signature Trips</h2>
 
-            <article class="trip-card">
-                <div class="trip-media">
-                    <img src="images/trip-halfday.jpg" alt="Family rafting group enjoying a gentle rapid">
-                </div>
+            <div class="trip-card">
+                <img class="trip-photo" src="images/trip-halfday.jpeg"
+                  alt="Family rafting group enjoying a gentle rapid">
                 <div class="trip-info">
                     <h3>Half-Day Splash</h3>
                     <p>Perfect for first-timers and families, the Half-Day Splash covers eight
@@ -65,12 +57,11 @@
                         <li>Ages 6+</li>
                     </ul>
                 </div>
-            </article>
+            </div>
 
-            <article class="trip-card reverse">
-                <div class="trip-media">
-                    <img src="images/trip-fullday.jpg" alt="Rafting crew navigating a large standing wave">
-                </div>
+            <div class="trip-card">
+                <img class="trip-photo" src="images/trip-fullday.jpg"
+                  alt="Rafting crew navigating a large standing wave">
                 <div class="trip-info">
                     <h3>Full-Day Expedition</h3>
                     <p>Our most popular trip runs sixteen miles through the heart of the canyon,
@@ -83,12 +74,11 @@
                         <li>Ages 12+</li>
                     </ul>
                 </div>
-            </article>
+            </div>
 
-            <article class="trip-card">
-                <div class="trip-media">
-                    <img src="images/trip-overnight.jpg" alt="Rafters camping beside the river at dusk">
-                </div>
+            <div class="trip-card">
+                <img class="trip-photo" src="images/trip-overnight.jpeg"
+                  alt="Rafters camping beside the river at dusk">
                 <div class="trip-info">
                     <h3>Overnight Basecamp</h3>
                     <p>Raft by day and camp under the stars by night. This two-day expedition
@@ -100,63 +90,61 @@
                         <li>Ages 14+</li>
                     </ul>
                 </div>
-            </article>
+            </div>
         </section>
 
-        <section class="trip-table-section">
+        <section class="trips-table">
             <h2>All Available Trips</h2>
-            <div class="table-scroll">
-                <table class="trips-table">
-                    <caption>Trip pricing is per person and includes guides, gear, and required
-                        safety equipment.</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Trip</th>
-                            <th scope="col">Duration</th>
-                            <th scope="col">Difficulty</th>
-                            <th scope="col">Minimum Age</th>
-                            <th scope="col">Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Half-Day Splash</td>
-                            <td>3 hours</td>
-                            <td>Class II&ndash;III</td>
-                            <td>6</td>
-                            <td>$79</td>
-                        </tr>
-                        <tr>
-                            <td>Full-Day Expedition</td>
-                            <td>7 hours</td>
-                            <td>Class III&ndash;IV</td>
-                            <td>12</td>
-                            <td>$149</td>
-                        </tr>
-                        <tr>
-                            <td>Overnight Basecamp</td>
-                            <td>2 days</td>
-                            <td>Class III&ndash;V</td>
-                            <td>14</td>
-                            <td>$329</td>
-                        </tr>
-                        <tr>
-                            <td>Sunrise Paddle</td>
-                            <td>2 hours</td>
-                            <td>Class I&ndash;II</td>
-                            <td>4</td>
-                            <td>$49</td>
-                        </tr>
-                        <tr>
-                            <td>Guides-in-Training Weekend</td>
-                            <td>3 days</td>
-                            <td>Class IV&ndash;V</td>
-                            <td>16</td>
-                            <td>$599</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <p><em>Trip pricing is per person and includes guides, gear, and required
+                    safety equipment.</em></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Trip</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Difficulty</th>
+                        <th scope="col">Minimum Age</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Half-Day Splash</td>
+                        <td>3 hours</td>
+                        <td>Class II&ndash;III</td>
+                        <td>6</td>
+                        <td>$79</td>
+                    </tr>
+                    <tr>
+                        <td>Full-Day Expedition</td>
+                        <td>7 hours</td>
+                        <td>Class III&ndash;IV</td>
+                        <td>12</td>
+                        <td>$149</td>
+                    </tr>
+                    <tr>
+                        <td>Overnight Basecamp</td>
+                        <td>2 days</td>
+                        <td>Class III&ndash;V</td>
+                        <td>14</td>
+                        <td>$329</td>
+                    </tr>
+                    <tr>
+                        <td>Sunrise Paddle</td>
+                        <td>2 hours</td>
+                        <td>Class I&ndash;II</td>
+                        <td>4</td>
+                        <td>$49</td>
+                    </tr>
+                    <tr>
+                        <td>Guides-in-Training Weekend</td>
+                        <td>3 days</td>
+                        <td>Class IV&ndash;V</td>
+                        <td>16</td>
+                        <td>$599</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 
